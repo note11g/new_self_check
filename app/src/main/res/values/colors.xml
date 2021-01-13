@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="mint_300">#A4F1C3</color>
+    <color name="mint_300_dark">#89d2a1</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="materialGray0">#f8f9fa</color>
+    <color name="materialGray1">#f1f3f5</color>
+    <color name="materialGray2">#e9ecef</color>
+    <color name="materialGray3">#dee2e6</color>
+    <color name="materialGray4">#ced4da</color>
+    <color name="materialGray5">#adb5bd</color>
+    <color name="materialGray6">#868e96</color>
+    <color name="materialGray7">#495057</color>
+    <color name="materialGray8">#343a40</color>
+    <color name="materialGray9">#212529</color>
+    <color name="materialDarkBlack">#121212</color>
+    <string name="setting_name">앱 개발 : 선린인터넷고등학교 김승빈\n사이트 개발 : 교육부</string>
+</resources>

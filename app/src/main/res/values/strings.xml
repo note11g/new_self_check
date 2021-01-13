@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">빠른 자가진단</string>
+    <string name="txt_first_3">¹ 의심 증상이 없다 함은, 교육부 자가진단 홈페이지에서 제공하는 설문의 문항에 해당되지 않음을 의미합니다.\n\n² Galaxy Note 10, LTE 환경에서의 측정치입니다. 인터넷 연결 환경에 따라 결과가 달라질 수 있습니다.</string>
+    <string name="txt_first_2">빠른 자가진단은 바쁜 등굣길, 의심 증상이 없을 시¹\n단 3초²만에 자가진단을 완료할 수 있게 해주는 어플입니다.</string>
+    <string name="txt_first_title">빠른 자가진단에 오신 것을 환영합니다!</string>
+    <string name="main_title">아래 문항 중, 해당하는 항목이 있나요?</string>
+    <string name="txt_main_sub"><![CDATA[¹ 단, 기저질환 등으로 코로나와 관계없이 평소에 해당 증상이 계속되는 경우는 제외\n\n² <방역당국 지침> 최근 14일 이내 해외 입국자, 확진자와 접촉자 등은 자가격리 조치. 단, 직업특성상 잦은 해외 입·출국으로 의심증상이 없는 경우 자가격리 면제]]></string>
+    <string name="txt_main_q3">3. 학생 본인 또는 동거인이 방역당국에 의해 현재 자가격리가 이루어지고 있나요? ²</string>
+    <string name="txt_main_q2_1">- 주요 임상증상\n기침, 호흡곤란, 오한, 근육통, 두통,인후통, 후각·미각 소실 또는 폐렴</string>
+    <string name="txt_main_q2">2. 학생에게 코로나로 의심되는 아래의 임상증상이 있나요? ¹</string>
+    <string name="txt_main_q1">1. 학생 본인이 37.5℃ 이상 발열 또는 발열감이 있나요? ¹</string>
+    <string name="btn_main_allow">아니오, 해당하는 항목이 없습니다.</string>
+    <string name="btn_main_false">네, 해당하는 항목이 존재합니다.</string>
+    <string name="pw_explain">비밀번호 앞 두자리를 입력해주세요</string>
+    <string name="pw_2">●●</string>
+    <string name="alarm_not_doze">앱 절전모드가 실행되면, 아침 알림 서비스가\n정상적으로 작동하지 않을 수 있습니다.\n\n앱 목록에서, 모든앱 - 빠른 자가진단을 찾아 \n배터리 사용량 최적화를 해제해주세요.</string>
+    <string name="alarm_not_doze_btn">해제하러 가기</string>
+    <string name="alarm_not_doze_title">앱 절전모드를 해제해주세요</string>
+    <string name="start">시작하기</string>
+    <string name="first_set_pw_title">자가진단 비밀번호를 입력해주세요.</string>
+    <string name="first_set_pw_sub">방금, 로그인하실 때 사용하셨던 비밀번호를 입력해주세요.</string>
+    <string name="first_set_pw_pw">비밀번호</string>
+    <string name="first_set_pw_hint">0123</string>
+    <string name="first_set_pw_next">다음으로</string>
+    <string name="last_sc">지난 자가진단 보기</string>
+    <string name="last_sc_non">아직 자가진단 기록이 없습니다.</string>
+    <string name="setting_title">설정</string>
+    <string name="setting_sub">설정 변경 시 자동으로 저장됩니다.</string>
+    <string name="setting_1">지문 인식 (권장)</string>
+    <string name="setting_2">자가진단 알림 시간</string>
+    <string name="setting_contact">개발자에게 연락하기</string>
+</resources>

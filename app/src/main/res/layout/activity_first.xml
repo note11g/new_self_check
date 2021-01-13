@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+    <data>
+
+    </data>
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="?attr/colorOnSecondary">
+
+        <TextView
+            android:id="@+id/txt_first_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="36dp"
+            android:fontFamily="@font/kopubb"
+            android:gravity="start"
+            android:layout_marginTop="64dp"
+            android:text="@string/txt_first_title"
+            android:textColor="@color/mint_300_dark"
+            android:textSize="20sp"
+            android:includeFontPadding="false"
+            app:layout_constraintBottom_toTopOf="@id/txt_first_2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/txt_first_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="36dp"
+            android:fontFamily="@font/kopubm"
+            android:gravity="start"
+            android:text="@string/txt_first_2"
+            android:includeFontPadding="false"
+            android:textColor="@color/materialGray6"
+            android:textSize="13sp"
+            app:layout_constraintBottom_toTopOf="@+id/btn_first_start"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txt_first_1" />
+
+        <Button
+            android:id="@+id/btn_first_start"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/kopubb"
+            android:textColor="@color/white"
+            android:layout_marginHorizontal="36dp"
+            android:background="@drawable/round_box"
+            android:backgroundTint="@color/mint_300"
+            android:letterSpacing="0"
+            android:paddingHorizontal="16dp"
+            android:paddingVertical="8dp"
+            android:stateListAnimator="@null"
+            android:text="@string/start"
+            app:layout_constraintBottom_toTopOf="@id/txt_first_3"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/txt_first_2" />
+
+        <TextView
+            android:id="@+id/txt_first_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="36dp"
+            android:fontFamily="@font/kopubm"
+            android:gravity="start"
+            android:text="@string/txt_first_3"
+            android:textColor="@color/materialGray5"
+            android:textSize="12sp"
+            android:layout_marginBottom="64dp"
+            android:includeFontPadding="false"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btn_first_start" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

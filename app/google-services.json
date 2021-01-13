@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "812966451821",
+    "firebase_url": "https://fast-health-check.firebaseio.com",
+    "project_id": "fast-health-check",
+    "storage_bucket": "fast-health-check.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:812966451821:android:da8d4d79e82a3a919dbd64",
+        "android_client_info": {
+          "package_name": "com.note11.easy_self_health_check"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "812966451821-i4j42h9f70kvbss4dcb2lq077ja9laob.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.note11.easy_self_health_check",
+            "certificate_hash": "113c6009dc33403672a9b97455f20fb20abdbd4d"
+          }
+        },
+        {
+          "client_id": "812966451821-1sd34a0gbcqfpin4i7ghil15j9l3miec.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDULfx91OcRmVb-HtKDYRcmXbOJVFU4SIM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "812966451821-1sd34a0gbcqfpin4i7ghil15j9l3miec.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

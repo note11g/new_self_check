@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <variable
+            name="time"
+            type="String" />
+
+        <variable
+            name="version"
+            type="String" />
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="?attr/colorOnSecondary">
+
+        <TextView
+            android:id="@+id/txt_setting_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="36dp"
+            android:layout_marginTop="64dp"
+            android:fontFamily="@font/kopubb"
+            android:gravity="start"
+            android:includeFontPadding="false"
+            android:text="@string/setting_title"
+            android:textColor="@color/mint_300_dark"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toTopOf="@id/constraintLayout"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/txt_first_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="36dp"
+            android:layout_marginTop="2dp"
+            android:fontFamily="@font/kopubm"
+            android:gravity="start"
+            android:includeFontPadding="false"
+            android:text="@string/setting_sub"
+            android:textColor="@color/materialGray6"
+            android:textSize="13sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txt_setting_title" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/constraintLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="36dp"
+            app:layout_constraintBottom_toTopOf="@id/txt_setting_name"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/txt_setting_title">
+
+            <TextView
+                android:id="@+id/textView_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/kopubm"
+                android:paddingVertical="8dp"
+                android:text="@string/setting_1"
+                android:textColor="@color/materialGray6"
+                android:textSize="15sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <androidx.appcompat.widget.SwitchCompat
+                android:id="@+id/switch_setting1_setting"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintBottom_toBottomOf="@+id/textView_1"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/textView_1"
+                tools:ignore="UseSwitchCompatOrMaterialXml" />
+
+            <TextView
+                android:id="@+id/textView_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:fontFamily="@font/kopubm"
+                android:includeFontPadding="false"
+                android:letterSpacing="0"
+                android:paddingVertical="8dp"
+                android:text="@string/setting_2"
+                android:textColor="@color/materialGray6"
+                android:textSize="15sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView_1" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:fontFamily="@font/kopubm"
+                android:includeFontPadding="false"
+                android:paddingVertical="8dp"
+                android:text="@{time, default=`7 : 45`}"
+                android:textColor="@color/materialGray6"
+                android:textSize="16sp"
+                app:layout_constraintBottom_toBottomOf="@+id/textView_3"
+                app:layout_constraintEnd_toStartOf="@+id/btn_1_setting"
+                app:layout_constraintTop_toTopOf="@+id/textView_3" />
+
+            <ImageButton
+                android:id="@+id/btn_1_setting"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ic_baseline_edit_24"
+                android:backgroundTint="@color/materialGray6"
+                app:layout_constraintBottom_toBottomOf="@+id/textView_3"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/textView_3" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <TextView
+            android:id="@+id/txt_setting_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="36dp"
+            android:fontFamily="@font/kobpul"
+            android:text="@string/setting_name"
+            android:textColor="@color/materialGray6"
+            android:textSize="15sp"
+            app:layout_constraintBottom_toTopOf="@id/btn_setting_contact"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/constraintLayout" />
+
+        <TextView
+            android:id="@+id/txt_setting_version"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="36dp"
+            android:layout_marginTop="4dp"
+            android:fontFamily="@font/kobpul"
+            android:text="@{`버전  `+version, default = `get version failed`}"
+            android:textColor="@color/materialGray6"
+            android:textSize="15sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txt_setting_name" />
+
+        <Button
+            android:id="@+id/btn_setting_contact"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="36dp"
+            android:layout_marginBottom="64dp"
+            android:background="@drawable/round_box"
+            android:backgroundTint="@color/mint_300"
+            android:fontFamily="@font/kopubb"
+            android:letterSpacing="0"
+            android:paddingHorizontal="16dp"
+            android:paddingVertical="8dp"
+            android:stateListAnimator="@null"
+            android:text="@string/setting_contact"
+            android:textColor="@color/white"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/txt_setting_version" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>
